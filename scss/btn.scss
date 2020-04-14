@@ -1,0 +1,38 @@
+.btn-basic{
+    width: 250px;
+    height: 57px;
+    font-size: 20px;
+    font-weight: 600;
+    background: white;
+    border-radius: 100px;
+    line-height: 30px;
+  }
+  .button{
+    @extend .btn-basic;
+        left: 20px;
+        margin-top:50px;
+        }
+  
+    .button2 {
+      @extend .btn-basic;
+        position: absolute;
+        left: 1102px;
+        top: 38px;
+        display: none;
+        }
+  
+      .small {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 30px;
+      color: #4F4F4F;
+    }
+    .big { 
+      font-style: normal;
+      font-weight: bold;
+      font-size: 50px;
+      line-height: 75px;
+      color: #828282;
+      margin: 0px;
+    }

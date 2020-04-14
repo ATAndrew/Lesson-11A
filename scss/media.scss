@@ -1,0 +1,30 @@
+@media (min-width: 768px){ 
+    .box {
+      width: 30%;
+    
+  }
+  .flex-container .div2 {
+    width: 300px;
+    font-size: 30px;
+    padding-left: 20px;
+    margin-top: 205px;
+  }
+  .logo {
+    width: 80px;
+  height: 120px;
+  margin-left: 40px;
+  margin-top: 216px;
+  }
+  
+  
+  }
+
+  @media (min-width: 1024px) {
+    .box { 
+      width: 20%;
+    }
+    
+  .button2 {
+    display: block;
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "lesson9",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "node-sass scss -o css",
+    "watch-sass": "node-sass --watch scss -o css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ATAndrew/Figma.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ATAndrew/Figma/issues"
+  },
+  "homepage": "https://github.com/ATAndrew/Figma#readme",
+  "keywords": [],
+  "description": "",
+  "devDependencies": {},
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
